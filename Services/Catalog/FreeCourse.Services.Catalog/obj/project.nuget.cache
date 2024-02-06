@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wh/PAv5/XIaXfSHKV8WOmJozxBHY9uqWYaX2HAbU4mRrmH7nEy191Bm3XKsAyBOde6gWJtIxaLK5j41+N3H8gQ==",
+  "dgSpecHash": "0Gt/CuEz6OFRz90/8nCGULC/CO4547gM2jH4v0VDwl2tsKPMJlN6EG6n8LFwzoLTbW6tl17fWFeHnJ4GJeVgqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\OnlineCourseMicroServices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
+  "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ender\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

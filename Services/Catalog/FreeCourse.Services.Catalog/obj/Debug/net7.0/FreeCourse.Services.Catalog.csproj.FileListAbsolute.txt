@@ -95,3 +95,5 @@ C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Ser
 C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\ref\FreeCourse.Services.Catalog.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.pdb

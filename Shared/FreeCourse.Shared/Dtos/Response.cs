@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace FreeCourse.Shared.Dtos
 {
-    public class ResponseDto<T>
+    public class Response<T>
     {
         public T Data { get; private set; }
 
@@ -17,9 +17,9 @@ namespace FreeCourse.Shared.Dtos
 
         public List<string> Errors { get; set; }
 
-        public static ResponseDto<T> Success(T data, int statusCode)//for get operations and create operations
+        public static Response<T> Success(T data, int statusCode)//for get operations and create operations
         {
-            return new ResponseDto<T>
+            return new Response<T>
             {
                 Data = data,
                 StatusCode = statusCode,
@@ -27,10 +27,10 @@ namespace FreeCourse.Shared.Dtos
             };
         }
 
-        public static ResponseDto<T> Success(int statusCode)//for update and delete operations
+        public static Response<T> Success(int statusCode)//for update and delete operations
         {
 
-            return new ResponseDto<T>
+            return new Response<T>
             {
                 Data = default(T),
                 StatusCode = statusCode,
@@ -38,9 +38,9 @@ namespace FreeCourse.Shared.Dtos
             };
         }
 
-        public static ResponseDto<T> Fail(List<string> errors, int statusCode)//for get operations and create operations fail
+        public static Response<T> Fail(List<string> errors, int statusCode)//for get operations and create operations fail
         {
-            return new ResponseDto<T>
+            return new Response<T>
             {
                 Errors = errors,
                 StatusCode = statusCode,
@@ -49,9 +49,9 @@ namespace FreeCourse.Shared.Dtos
         }
 
 
-        public static ResponseDto<T> Fail(string error, int statusCode)//for update and delete operations fail
+        public static Response<T> Fail(string error, int statusCode)//for update and delete operations fail
         {
-            return new ResponseDto<T>
+            return new Response<T>
             {
                 Errors = new List<string> { error },
                 StatusCode = statusCode,
