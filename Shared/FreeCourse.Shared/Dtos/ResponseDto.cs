@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace FreeCourse.Shared.Dtos
 {
@@ -41,7 +38,7 @@ namespace FreeCourse.Shared.Dtos
             };
         }
 
-        public static ResponseDto<T>Fail(List<string> errors , int statusCode)//for get operations and create operations fail
+        public static ResponseDto<T> Fail(List<string> errors, int statusCode)//for get operations and create operations fail
         {
             return new ResponseDto<T>
             {
@@ -52,7 +49,7 @@ namespace FreeCourse.Shared.Dtos
         }
 
 
-        public static ResponseDto<T>Fail(string error , int statusCode)//for update and delete operations fail
+        public static ResponseDto<T> Fail(string error, int statusCode)//for update and delete operations fail
         {
             return new ResponseDto<T>
             {
