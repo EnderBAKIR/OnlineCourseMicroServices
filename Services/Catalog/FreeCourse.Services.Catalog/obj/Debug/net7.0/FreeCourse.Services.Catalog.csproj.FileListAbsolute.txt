@@ -32,7 +32,6 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\ref\FreeCourse.Services.Catalog.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AWSSDK.Core.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\DnsClient.dll
@@ -97,3 +96,4 @@ C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Ser
 C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\ref\FreeCourse.Services.Catalog.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

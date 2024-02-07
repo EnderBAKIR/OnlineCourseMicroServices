@@ -18,7 +18,7 @@ namespace FreeCourse.Services.Catalog.Services
             var client = new MongoClient(databaseSettings.ConnectionString);//MongoDb connection string
             var database = client.GetDatabase(databaseSettings.DatabaseName);//Database name
 
-            _courseCollection = database.GetCollection<Course>(databaseSettings.CategoryCollectionName);//Collection name
+            _courseCollection = database.GetCollection<Course>(databaseSettings.CourseCollectionName);//Collection name
 
             _categoryCollection = database.GetCollection<Category>(databaseSettings.CategoryCollectionName);//Collection name
 
@@ -27,21 +27,21 @@ namespace FreeCourse.Services.Catalog.Services
 
         public async Task<Response<List<CourseDto>>> GetAllAsync()
         {
-            var courses = await _courseCollection.Find(course=>true).ToListAsync();
+            var courses = await _courseCollection.Find(course => true).ToListAsync();
 
             if (courses.Any())
             {
-                foreach(var course in courses)
+                foreach (var course in courses)
                 {
-                    course.Category = await _categoryCollection.Find<Category>(x=>x.Id==course.CategoryId).FirstAsync();
+                    course.Category = await _categoryCollection.Find<Category>(x => x.Id == course.CategoryId).FirstAsync();
                 }
             }
             else
             {
-                courses = new List<Course> { };
+                courses = new List<Course>();
             }
-          
-            return Response<List<CourseDto>>.Success(_mapper.Map<List<CourseDto>>(courses) , 200);
+
+            return Response<List<CourseDto>>.Success(_mapper.Map<List<CourseDto>>(courses), 200);
         }
 
         public async Task<Response<CourseDto>> GetByIdAsync(string id)
