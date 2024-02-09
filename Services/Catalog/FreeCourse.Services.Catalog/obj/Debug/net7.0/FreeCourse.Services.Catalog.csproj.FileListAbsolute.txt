@@ -97,3 +97,11 @@ C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\OnlineCourseMicroServices\Ser
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
