@@ -20,7 +20,8 @@ namespace FreeCouse.IdentityServer
         };
 
 
-        public static IEnumerable<IdentityResource> IdentityResources =>
+        public static IEnumerable<IdentityResource> IdentityResources =>    // Defines IdentityResources for user email, basic OpenID, user profile, and custom user roles in an IdentityServer4 configuration
+                                                                            // These resources represent standard identity information used in OAuth 2.0 and OpenID Connect protocols.
                    new IdentityResource[]
                    {
                     new IdentityResources.Email(),
@@ -47,7 +48,7 @@ namespace FreeCouse.IdentityServer
                  ClientId="WebMvcClient",
                  ClientSecrets={new Secret ("secret".Sha256())},
                  AllowedGrantTypes=GrantTypes.ClientCredentials,
-                 AllowedScopes={"catalog_fullpermission" , "photo_stock_fullpermission" , IdentityServerConstants.LocalApi.ScopeName} 
+                 AllowedScopes={"catalog_fullpermission" , "photo_stock_fullpermission" , IdentityServerConstants.LocalApi.ScopeName}
              },
               new Client
              {
@@ -56,7 +57,7 @@ namespace FreeCouse.IdentityServer
                  AllowOfflineAccess=true,
                  ClientSecrets={new Secret ("secret".Sha256())},
                  AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
-                 AllowedScopes={IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,IdentityServerConstants.StandardScopes.OfflineAccess , "roles"},
+                 AllowedScopes={IdentityServerConstants.StandardScopes.Email,IdentityServerConstants.StandardScopes.OpenId,IdentityServerConstants.StandardScopes.Profile,IdentityServerConstants.StandardScopes.OfflineAccess, IdentityServerConstants.LocalApi.ScopeName, "roles"},
                  AccessTokenLifetime=1*60*60,
                  RefreshTokenExpiration=TokenExpiration.Absolute,
                  AbsoluteRefreshTokenLifetime=(int)(DateTime.Now.AddDays(60)-DateTime.Now).TotalSeconds,
