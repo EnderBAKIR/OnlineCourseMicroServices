@@ -31,9 +31,6 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 });
 builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings"));
 
-
-
-
 //Options Pattern
 //JsonWebToken
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(Options =>
