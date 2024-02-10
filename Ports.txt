@@ -1,2 +1,6 @@
 Services
--catalogApi=>http://localhost:5011
+ catalogApi=>http://localhost:5011
+ photostockAPI=>http://localhost:5012
+
+
+-IdentityServer =>http://localhost:5001

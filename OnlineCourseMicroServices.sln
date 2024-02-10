@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCouse.IdentityServer", "IdentityServer\FreeCouse.IdentityServer\FreeCouse.IdentityServer.csproj", "{1ACADFB9-3138-4B73-95BF-810673C9B89F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{A191745F-6E78-453C-9439-411E17667D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{3F61D681-183B-466B-AAD8-0E87152CCF22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{1ACADFB9-3138-4B73-95BF-810673C9B89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ACADFB9-3138-4B73-95BF-810673C9B89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ACADFB9-3138-4B73-95BF-810673C9B89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F61D681-183B-466B-AAD8-0E87152CCF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F61D681-183B-466B-AAD8-0E87152CCF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F61D681-183B-466B-AAD8-0E87152CCF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F61D681-183B-466B-AAD8-0E87152CCF22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{A9C7977A-8288-4547-A324-6258E8A63533} = {F4A6C021-1300-423B-92B4-EB6A3B3D6A0A}
 		{985E29FB-618D-450A-AEA0-6287C4E21DC5} = {BF06027A-0121-4947-97D1-3AE00FD8FC31}
 		{1ACADFB9-3138-4B73-95BF-810673C9B89F} = {1EC47972-F170-42B0-8982-E388151F01CC}
+		{A191745F-6E78-453C-9439-411E17667D67} = {FE02E58E-1614-4159-A3BB-C431942E5DFB}
+		{3F61D681-183B-466B-AAD8-0E87152CCF22} = {A191745F-6E78-453C-9439-411E17667D67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48181E56-F5B4-43D3-814A-57409185820A}
