@@ -1,3 +1,5 @@
+using FreeCourse.Services.Basket.Setting;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//options pattern
+builder.Services.Configure<RedisSetting>(builder.Configuration.GetSection("RedisSettings"));
+//options pattern
+
 
 var app = builder.Build();
 
