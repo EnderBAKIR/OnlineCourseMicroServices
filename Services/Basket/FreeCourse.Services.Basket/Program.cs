@@ -5,19 +5,20 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Options;
+using System.IdentityModel.Tokens.Jwt;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
 
 //JsonWebToken
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(Options =>
 {
     Options.Authority = builder.Configuration["IdentityServerUrl"];
-    Options.Audience = "resource_catalog";
+    Options.Audience = "resource_basket";
     Options.RequireHttpsMetadata = false;
 
 });
@@ -32,7 +33,7 @@ builder.Services.AddScoped<IBasketService, BasketService>();
 
 builder.Services.AddSingleton<RedisService>(sp =>
 {
-    var redisSettings = sp.GetRequiredService<IOptions<RedisSetting>>().Value;
+    var redisSettings = sp.GetRequiredService<IOptions<RedisSettings>>().Value;
 
     var redis = new RedisService(redisSettings.Host , redisSettings.Port);
 
@@ -53,7 +54,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //options pattern
-builder.Services.Configure<RedisSetting>(builder.Configuration.GetSection("RedisSettings"));
+builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
 //options pattern
 
 
