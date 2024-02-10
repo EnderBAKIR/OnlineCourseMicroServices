@@ -16,6 +16,7 @@ namespace FreeCourse.Services.PhotoStock.Controllers
         {
             if (photo!=null && photo.Length>0)
             {
+                
                 var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", photo.FileName);
 
                 using var stream = new FileStream(path, FileMode.Create);
@@ -31,6 +32,8 @@ namespace FreeCourse.Services.PhotoStock.Controllers
             return CreateActionResultInstance(Response<PhotoDto>.Fail("Resim bilgisi boş", 400));
         }
 
+
+        
         public IActionResult PhotoDelete(string photoUrl)
         {
 
