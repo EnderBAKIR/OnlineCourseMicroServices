@@ -64,7 +64,7 @@ namespace FreeCourse.Services.Discount.Controllers
 
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
 

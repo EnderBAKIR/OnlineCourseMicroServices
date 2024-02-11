@@ -42,7 +42,7 @@ namespace FreeCourse.Services.Discount.Services
 
             if (hasDiscount == null)
             {
-                return Response<Models.Discount>.Fail("Böyle bir kupon bulunumadı" , 404);
+                return Response<Models.Discount>.Fail("Böyle bir kupon bulunumadı", 404);
             }
             return Response<Models.Discount>.Success(hasDiscount, 200);
         }
@@ -72,7 +72,7 @@ namespace FreeCourse.Services.Discount.Services
 
         public async Task<Response<NoContent>> Update(Models.Discount discount)
         {
-            var status = await _connection.ExecuteAsync("update discount set userid=@UserId, code=@Code, rate=@Rate where İd=@Id", new
+            var status = await _connection.ExecuteAsync("update discount set userid=@UserId, code=@Code, rate=@Rate where id=@Id", new
             {
                 Id = discount.Id,
                 UserId = discount.UserId,
@@ -81,12 +81,12 @@ namespace FreeCourse.Services.Discount.Services
             });
 
 
-            if(status > 0)
+            if (status > 0)
             {
                 return Response<NoContent>.Success(204);
             }
 
-            return Response<NoContent>.Fail("Kupon bulunamadı" , 404);
+            return Response<NoContent>.Fail("Kupon bulunamadı", 404);
         }
     }
 }
