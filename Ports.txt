@@ -2,5 +2,5 @@ Services
  catalogApi=>http://localhost:5011
  photostockAPI=>http://localhost:5012
  BaketAPI=>http://localhost:5013
-
+ DiscountAPI=>http://localhost:5014
 -IdentityServer =>http://localhost:5001

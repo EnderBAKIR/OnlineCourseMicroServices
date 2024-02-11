@@ -30,6 +30,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{BED26F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.Basket", "Services\Basket\FreeCourse.Services.Basket\FreeCourse.Services.Basket.csproj", "{8A9AE293-9C4D-4939-9196-B4B154225004}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{89EB384C-F19B-4146-99C9-ED8CA7F1ABE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Discount", "Services\Discount\FreeCourse.Services.Discount\FreeCourse.Services.Discount.csproj", "{1304FDDF-54EB-44F5-AEA9-0934D22C6E63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,10 @@ Global
 		{8A9AE293-9C4D-4939-9196-B4B154225004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A9AE293-9C4D-4939-9196-B4B154225004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A9AE293-9C4D-4939-9196-B4B154225004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1304FDDF-54EB-44F5-AEA9-0934D22C6E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1304FDDF-54EB-44F5-AEA9-0934D22C6E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1304FDDF-54EB-44F5-AEA9-0934D22C6E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1304FDDF-54EB-44F5-AEA9-0934D22C6E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,8 @@ Global
 		{3F61D681-183B-466B-AAD8-0E87152CCF22} = {A191745F-6E78-453C-9439-411E17667D67}
 		{BED26FB5-64CC-4841-A62A-0F8B4DB8508D} = {FE02E58E-1614-4159-A3BB-C431942E5DFB}
 		{8A9AE293-9C4D-4939-9196-B4B154225004} = {BED26FB5-64CC-4841-A62A-0F8B4DB8508D}
+		{89EB384C-F19B-4146-99C9-ED8CA7F1ABE0} = {FE02E58E-1614-4159-A3BB-C431942E5DFB}
+		{1304FDDF-54EB-44F5-AEA9-0934D22C6E63} = {89EB384C-F19B-4146-99C9-ED8CA7F1ABE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48181E56-F5B4-43D3-814A-57409185820A}
