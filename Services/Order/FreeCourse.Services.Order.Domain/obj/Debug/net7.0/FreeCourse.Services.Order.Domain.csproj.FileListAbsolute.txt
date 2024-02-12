@@ -1,0 +1,15 @@
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\bin\Debug\net7.0\FreeCourse.Services.Order.Domain.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\bin\Debug\net7.0\FreeCourse.Services.Order.Domain.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\bin\Debug\net7.0\FreeCourse.Services.Order.Domain.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\refint\FreeCourse.Services.Order.Domain.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\ref\FreeCourse.Services.Order.Domain.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\bin\Debug\net7.0\FreeCourse.Services.Order.Domain.Core.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\bin\Debug\net7.0\FreeCourse.Services.Order.Domain.Core.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.Domain\obj\Debug\net7.0\FreeCourse.Services.Order.Domain.csproj.CopyComplete
