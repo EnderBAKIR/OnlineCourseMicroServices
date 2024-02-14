@@ -83,3 +83,8 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MediatR.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\System.CodeDom.dll
