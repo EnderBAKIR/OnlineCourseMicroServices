@@ -80,3 +80,6 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MediatR.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
