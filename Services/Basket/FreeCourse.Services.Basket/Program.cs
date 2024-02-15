@@ -15,11 +15,11 @@ var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticat
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
 
 //JsonWebToken
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(Options =>
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
-    Options.Authority = builder.Configuration["IdentityServerUrl"];
-    Options.Audience = "resource_basket";
-    Options.RequireHttpsMetadata = false;
+    options.Authority = builder.Configuration["IdentityServerUrl"];
+    options.Audience = "resource_basket";
+    options.RequireHttpsMetadata = false;
 
 });
 //JsonWebToken
