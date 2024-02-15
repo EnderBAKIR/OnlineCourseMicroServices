@@ -50,7 +50,10 @@ builder.Services.AddDbContext<OrderDbContext>(opt =>
 });
 
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(opt =>
+{
+    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+});
 
     
 
