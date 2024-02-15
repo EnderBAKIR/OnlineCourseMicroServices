@@ -17,6 +17,6 @@ namespace FreeCourse.Services.Order.Application.Commands
         public List<OrderItemDto> OrderItems { get; set; }
 
 
-        public AddressDto AdressDto { get; set; }
+        public AddressDto Address { get; set; }
     }
 }
