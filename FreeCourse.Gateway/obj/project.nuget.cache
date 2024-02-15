@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "EV7NJc1KMv4SdamHrPoi3wT/KWxDkfGroOGVY+WLZEYBRk+m4kqgf9Ol3ZWZXv/sZSoI92qWoxg7GVkmsBFRxg==",
+  "dgSpecHash": "pDXXRQiERGfXm2dVuadk3S8pqgW9k2hM61Rgx7Kj2yGXXy6J+uZd61NXwavav1f+Rxsrjm6HgJ/qMqO8T0WAtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\FreeCourse.Gateway\\FreeCourse.Gateway.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ender\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.14\\microsoft.aspnetcore.jsonpatch.7.0.14.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\7.0.14\\microsoft.aspnetcore.middlewareanalysis.7.0.14.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.14\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.14.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.32\\microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\ocelot\\23.0.0\\ocelot.23.0.0.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

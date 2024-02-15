@@ -23,3 +23,15 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCour
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\ref\FreeCourse.Gateway.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\IPAddressRange.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\Ocelot.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.csproj.CopyComplete
