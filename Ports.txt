@@ -7,3 +7,4 @@ Services
  FakePayment=>http://localhost:5016
 
 -IdentityServer =>http://localhost:5001
+-Gateway=>http://localhost:5000
