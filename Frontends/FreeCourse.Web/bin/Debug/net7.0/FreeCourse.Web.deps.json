@@ -7,14 +7,43 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "FreeCourse.Web/1.0.0": {
+        "dependencies": {
+          "FreeCourse.Shared": "1.0.0",
+          "IdentityModel": "6.2.0"
+        },
         "runtime": {
           "FreeCourse.Web.dll": {}
+        }
+      },
+      "IdentityModel/6.2.0": {
+        "runtime": {
+          "lib/net6.0/IdentityModel.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
+        }
+      },
+      "FreeCourse.Shared/1.0.0": {
+        "runtime": {
+          "FreeCourse.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FreeCourse.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityModel/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4AXZ6Tp+DNwrSSeBziiX/231i8ZpD77A9nEMyc68gLSCWG0kgWsIBeFquYcBebiIPkfB7GEXzCYuuLeR1QZJIQ==",
+      "path": "identitymodel/6.2.0",
+      "hashPath": "identitymodel.6.2.0.nupkg.sha512"
+    },
+    "FreeCourse.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
