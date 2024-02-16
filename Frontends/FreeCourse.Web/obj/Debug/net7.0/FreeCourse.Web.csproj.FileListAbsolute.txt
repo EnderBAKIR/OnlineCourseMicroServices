@@ -34,3 +34,10 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontend
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\obj\Debug\net7.0\FreeCourse.Web.csproj.AssemblyReference.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\obj\Debug\net7.0\FreeCourse.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\obj\Debug\net7.0\FreeCourse.Web.csproj.CopyComplete
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
