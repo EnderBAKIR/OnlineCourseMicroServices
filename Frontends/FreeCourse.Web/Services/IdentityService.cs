@@ -30,15 +30,64 @@ namespace FreeCourse.Web.Services
 
         public async Task<TokenResponse> GetAccessTokenByRefreshToken()
         {
+            var disco = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest //discovery endpoint
+            {
+                Address = _serviceApiSettings.BaseUri,
+                Policy = new DiscoveryPolicy { RequireHttps = false }
+
+            });
+
+            if (disco.IsError)
+            {
+                throw disco.Exception;
+            }
+
+            var refreshToken = await _httpContextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.RefreshToken);
+
+            RefreshTokenRequest refreshTokenRequest = new()
+            {
+                ClientId = _clientSettings.WebClientForUser.ClientId,
+                ClientSecret = _clientSettings.WebClientForUser.ClientSecret,
+                RefreshToken = refreshToken,
+                Address = disco.TokenEndpoint
+
+            };
+
+            var token = await _httpClient.RequestRefreshTokenAsync(refreshTokenRequest);
+
+            if (token.IsError)
+            {
+                return null;
+            }
 
 
 
-            throw new NotImplementedException();
+            var authenticationTokens = (new List<AuthenticationToken>()
+            {
+                new AuthenticationToken{Name=OpenIdConnectParameterNames.AccessToken , Value=token.AccessToken},
+                 new AuthenticationToken{Name=OpenIdConnectParameterNames.RefreshToken , Value=token.RefreshToken},
+                 new AuthenticationToken{Name=OpenIdConnectParameterNames.ExpiresIn , Value=DateTime.Now.AddSeconds(token.ExpiresIn).ToString("O",CultureInfo.InvariantCulture)}
+            });
+
+            var authenticationResult = await _httpContextAccessor.HttpContext.AuthenticateAsync();
+
+            var properties = authenticationResult.Properties;
+
+            properties.StoreTokens(authenticationTokens);
+
+            await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, authenticationResult.Principal, properties);
+
+            return token;
+
+
+
+
         }
 
-        public Task RevokeRefreshToken()
+
+        public async Task RevokeRefreshToken()
         {
-            throw new NotImplementedException();
+
         }
 
         public async Task<Response<bool>> SignIn(SigninInput signinInput)
@@ -88,7 +137,7 @@ namespace FreeCourse.Web.Services
                 throw userInfo.Exception;
             }
 
-            ClaimsIdentity claimsIdentity = new ClaimsIdentity(userInfo.Claims , CookieAuthenticationDefaults.AuthenticationScheme , "name" , "role");
+            ClaimsIdentity claimsIdentity = new ClaimsIdentity(userInfo.Claims, CookieAuthenticationDefaults.AuthenticationScheme, "name", "role");
 
 
             ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
@@ -106,7 +155,7 @@ namespace FreeCourse.Web.Services
 
             authenticationProperties.IsPersistent = signinInput.IsRemember;
 
-            await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme , claimsPrincipal , authenticationProperties );
+            await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal, authenticationProperties);
 
             return Response<bool>.Success(200);
 
