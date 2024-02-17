@@ -16,11 +16,11 @@ namespace FreeCourse.Web.Services
     public class IdentityService : IIdentityService
     {
         private readonly HttpClient _httpClient;
-        private readonly HttpContextAccessor _httpContextAccessor;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ClientSettings _clientSettings;
         private readonly ServiceApiSettings _serviceApiSettings;
 
-        public IdentityService(HttpClient httpClient, HttpContextAccessor httpContextAccessor, IOptions<ClientSettings> clientSettings, IOptions<ServiceApiSettings> serviceApiSettings)
+        public IdentityService(HttpClient httpClient, IHttpContextAccessor httpContextAccessor, IOptions<ClientSettings> clientSettings, IOptions<ServiceApiSettings> serviceApiSettings)
         {
             _httpClient = httpClient;
             _httpContextAccessor = httpContextAccessor;
