@@ -5,9 +5,16 @@ namespace FreeCourse.Web.Services
 {
     public class UserService : IUserService
     {
-        public Task<UserViewModel> GetUser()//for can access user properties
+        private readonly HttpClient _httpClient;
+
+        public UserService(HttpClient httpClient)
         {
-            throw new NotImplementedException();
+            _httpClient = httpClient;
+        }
+
+        public async Task<UserViewModel> GetUser()//for can access user properties
+        {
+            return await _httpClient.GetFromJsonAsync<UserViewModel>("/api/user/getuser");
         }
     }
 }
