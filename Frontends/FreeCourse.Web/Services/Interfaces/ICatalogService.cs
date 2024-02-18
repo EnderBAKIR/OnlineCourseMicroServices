@@ -6,6 +6,8 @@ namespace FreeCourse.Web.Services.Interfaces
     {
         Task<List<CourseViewModel>> GetAllCourseAsync();
 
+        Task<List<CategoryViewModel>> GetAllCategoryAsync();
+
         Task<List<CourseViewModel>> GetAllCourseByUserIdAsync(string userId);
 
         Task<CourseViewModel> GetByCourseIdAsync(string courseId);
