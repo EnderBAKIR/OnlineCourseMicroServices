@@ -232,3 +232,5 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontend
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\obj\Debug\net7.0\FreeCourse.Web.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\obj\Debug\net7.0\FreeCourse.Web.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\obj\Debug\net7.0\ref\FreeCourse.Web.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\IdentityModel.AspNetCore.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Frontends\FreeCourse.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
