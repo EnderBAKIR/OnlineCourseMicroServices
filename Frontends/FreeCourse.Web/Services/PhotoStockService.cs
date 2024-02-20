@@ -1,4 +1,5 @@
-﻿using FreeCourse.Web.Models.PhotoStocks;
+﻿using FreeCourse.Shared.Dtos;
+using FreeCourse.Web.Models.PhotoStocks;
 using FreeCourse.Web.Services.Interfaces;
 
 namespace FreeCourse.Web.Services
@@ -8,6 +9,10 @@ namespace FreeCourse.Web.Services
 
         private readonly HttpClient _httpClient;
 
+        public PhotoStockService(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+        }
 
         public async Task<bool> DeletePhoto(string photoUrl)
         {
@@ -43,7 +48,10 @@ namespace FreeCourse.Web.Services
                 return null;
             }
 
-            return await response.Content.ReadFromJsonAsync<PhotoViewModel>();
+            var responseSuccess = await response.Content.ReadFromJsonAsync<Response<PhotoViewModel>>();
+
+
+            return responseSuccess.Data;
 
         }
     }
