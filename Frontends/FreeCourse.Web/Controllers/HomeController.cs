@@ -23,6 +23,16 @@ namespace FreeCourse.Web.Controllers
             return View(await _catalogService.GetAllCourseAsync());
         }
 
+
+        public async Task<IActionResult> Detail(string id)
+        {
+            return View(await _catalogService.GetByCourseIdAsync(id));
+        }
+
+
+
+
+
         public IActionResult Privacy()
         {
             return View();

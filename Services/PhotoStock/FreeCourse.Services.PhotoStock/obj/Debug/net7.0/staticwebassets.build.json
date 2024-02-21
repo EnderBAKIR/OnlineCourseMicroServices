@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qyzOnmSNoRXkMGeFMlECGAuoEUSi2O4+lMXR6yk3ix8=",
+  "Hash": "RAEpGu0Lp6eFrUjexlYz+MaBCkFtuWkJDCmW8r4O4J4=",
   "Source": "FreeCourse.Services.PhotoStock",
   "BasePath": "_content/FreeCourse.Services.PhotoStock",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\88719992-65a6-4ff1-b5b3-8c5ce1257fd7.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\30bc568a-1944-4551-a337-a75dce771847.jpg",
       "SourceId": "FreeCourse.Services.PhotoStock",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
       "BasePath": "_content/FreeCourse.Services.PhotoStock",
-      "RelativePath": "photos/88719992-65a6-4ff1-b5b3-8c5ce1257fd7.jpg",
+      "RelativePath": "photos/30bc568a-1944-4551-a337-a75dce771847.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\88719992-65a6-4ff1-b5b3-8c5ce1257fd7.jpg"
+      "OriginalItemSpec": "wwwroot\\photos\\30bc568a-1944-4551-a337-a75dce771847.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\84961e3f-095e-4744-85d9-78ff22f8001d.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/84961e3f-095e-4744-85d9-78ff22f8001d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\84961e3f-095e-4744-85d9-78ff22f8001d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\91057fd8-d48c-43c2-8192-5a10280de819.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/91057fd8-d48c-43c2-8192-5a10280de819.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\91057fd8-d48c-43c2-8192-5a10280de819.jpg"
     }
   ]
 }
