@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\41eacb16-649e-4fa2-8333-7d413df8a1b6.jpg",
+      "PackagePath": "staticwebassets\\photos\\41eacb16-649e-4fa2-8333-7d413df8a1b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\bc8a184e-bd27-4643-9b3c-460719908aa2.jpg",
+      "PackagePath": "staticwebassets\\photos\\bc8a184e-bd27-4643-9b3c-460719908aa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\ed847bdb-4ad3-41f2-bdda-98dde948fbd8.jpg",
+      "PackagePath": "staticwebassets\\photos\\ed847bdb-4ad3-41f2-bdda-98dde948fbd8.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FreeCourse.Services.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FreeCourse.Services.PhotoStock.props",
+      "PackagePath": "build\\FreeCourse.Services.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FreeCourse.Services.PhotoStock.props",
+      "PackagePath": "buildMultiTargeting\\FreeCourse.Services.PhotoStock.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FreeCourse.Services.PhotoStock.props",
+      "PackagePath": "buildTransitive\\FreeCourse.Services.PhotoStock.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
