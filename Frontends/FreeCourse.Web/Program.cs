@@ -1,4 +1,5 @@
- using FreeCourse.Shared.Services;
+using FluentValidation.AspNetCore;
+using FreeCourse.Shared.Services;
 using FreeCourse.Web.Extensions;
 using FreeCourse.Web.Handler;
 using FreeCourse.Web.Helpers;
@@ -22,7 +23,13 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddAccessTokenManagement();
 builder.Services.AddSingleton<PhotoHelper>();
 builder.Services.AddScoped<ISharedIdentityService , SharedIdentityService>();
+
+
+
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddFluentValidationAutoValidation();
+
 
 builder.Services.AddHttpClientServices(builder.Configuration);
 

@@ -1,16 +1,24 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\22ceb4a5-f8cd-4ffe-b29a-26b5cba8c849.jpg",
+      "PackagePath": "staticwebassets\\photos\\22ceb4a5-f8cd-4ffe-b29a-26b5cba8c849.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\30bc568a-1944-4551-a337-a75dce771847.jpg",
       "PackagePath": "staticwebassets\\photos\\30bc568a-1944-4551-a337-a75dce771847.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\84961e3f-095e-4744-85d9-78ff22f8001d.jpg",
-      "PackagePath": "staticwebassets\\photos\\84961e3f-095e-4744-85d9-78ff22f8001d.jpg"
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\68f16ea0-25f3-42b2-ad5f-d1263877e192.jpg",
+      "PackagePath": "staticwebassets\\photos\\68f16ea0-25f3-42b2-ad5f-d1263877e192.jpg"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\91057fd8-d48c-43c2-8192-5a10280de819.jpg",
       "PackagePath": "staticwebassets\\photos\\91057fd8-d48c-43c2-8192-5a10280de819.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\f0bf31fe-838c-464e-9d5a-fee0ff29540e.jpg",
+      "PackagePath": "staticwebassets\\photos\\f0bf31fe-838c-464e-9d5a-fee0ff29540e.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FreeCourse.Services.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props",
