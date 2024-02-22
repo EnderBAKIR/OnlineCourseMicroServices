@@ -1,6 +1,7 @@
 ﻿using FreeCourse.Shared.Dtos;
 using FreeCourse.Web.Models.Baskets;
 using FreeCourse.Web.Services.Interfaces;
+using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
 
 namespace FreeCourse.Web.Services
 {
@@ -17,9 +18,10 @@ namespace FreeCourse.Web.Services
         {
             var basket = await Get();
 
-            if (basket!=null)
+            if (basket != null)
             {
-                if (!basket.BasketItems.Any(x=>x.CourseId == basketItemViewModel.CourseId))
+
+                if (!basket.BasketItems.Any(x => x.CourseId == basketItemViewModel.CourseId))
                 {
                     basket.BasketItems.Add(basketItemViewModel);
                 }
@@ -27,7 +29,7 @@ namespace FreeCourse.Web.Services
             else
             {
                 basket = new BasketViewModel();
-
+                
                 basket.BasketItems.Add(basketItemViewModel);
             }
 
@@ -74,13 +76,14 @@ namespace FreeCourse.Web.Services
             var basket = await Get();
 
             if (basket == null)
+
             {
                 return false;
             }
 
-            var deleteBasketItem = basket.BasketItems.FirstOrDefault(x=>x.CourseId== courseId);
+            var deleteBasketItem = basket.BasketItems.FirstOrDefault(x => x.CourseId == courseId);
 
-            if (deleteBasketItem==null)
+            if (deleteBasketItem == null)
             {
                 return false;
             }
@@ -91,22 +94,23 @@ namespace FreeCourse.Web.Services
             {
                 return false;
             }
+
             if (!basket.BasketItems.Any())
             {
                 basket.DiscountCode = null;
             }
 
-           return await SaveOrUpdate(basket);
+            return await SaveOrUpdate(basket);
 
-            
+
 
 
         }
 
         public async Task<bool> SaveOrUpdate(BasketViewModel basketViewModel)
         {
-            var response = await _httpClient.PostAsJsonAsync<BasketViewModel>("baskets", basketViewModel);
 
+            var response = await _httpClient.PostAsJsonAsync<BasketViewModel>("baskets", basketViewModel);
             return response.IsSuccessStatusCode;
         }
     }

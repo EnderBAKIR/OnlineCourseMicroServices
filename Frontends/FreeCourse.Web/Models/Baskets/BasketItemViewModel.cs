@@ -2,21 +2,23 @@
 {
     public class BasketItemViewModel
     {
-        public int Quantity { get; } = 1;
+        public int Quantity { get; set; } = 1;
 
         public string CourseId { get; set; }
-
         public string CourseName { get; set; }
 
         public decimal Price { get; set; }
 
-        private decimal? DiscountAppliedPrice { get; set; }
+        private decimal? DiscountAppliedPrice;
 
-        public decimal GetCurrentPrice { get => DiscountAppliedPrice != null ? DiscountAppliedPrice.Value : Price; }
-
-        public void AppliedDiscount ( decimal discpuntPrice )
+        public decimal GetCurrentPrice
         {
-            DiscountAppliedPrice = discpuntPrice;
+            get => DiscountAppliedPrice != null ? DiscountAppliedPrice.Value : Price;
+        }
+
+        public void AppliedDiscount(decimal discountPrice)
+        {
+            DiscountAppliedPrice = discountPrice;
         }
     }
 }

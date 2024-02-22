@@ -1,9 +1,11 @@
 ﻿using FreeCourse.Web.Models.Baskets;
 using FreeCourse.Web.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FreeCourse.Web.Controllers
 {
+    [Authorize]
     public class BasketController : Controller
     {
 
@@ -36,7 +38,7 @@ namespace FreeCourse.Web.Controllers
 
         public async Task<IActionResult> RemoveBasketItem(string courseId)
         {
-            await _basketService.RemoveBasketItem(courseId);
+       var result = await _basketService.RemoveBasketItem(courseId);
 
             return RedirectToAction(nameof(Index));
         }
