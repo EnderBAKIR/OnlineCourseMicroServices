@@ -30,6 +30,9 @@ namespace FreeCourse.Web.Services
             {
                 basket = new BasketViewModel();
                 
+                    
+                
+                
                 basket.BasketItems.Add(basketItemViewModel);
             }
 
@@ -111,6 +114,7 @@ namespace FreeCourse.Web.Services
         {
 
             var response = await _httpClient.PostAsJsonAsync<BasketViewModel>("baskets", basketViewModel);
+
             return response.IsSuccessStatusCode;
         }
     }

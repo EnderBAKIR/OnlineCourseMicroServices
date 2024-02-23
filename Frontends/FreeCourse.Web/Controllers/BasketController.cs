@@ -28,7 +28,7 @@ namespace FreeCourse.Web.Controllers
         {
             var course = await _catalogService.GetByCourseIdAsync(courseId);
 
-            var basketItem = new BasketItemViewModel { CourseId = course.Id   , CourseName=course.Name , Price=course.Price };
+            var basketItem = new BasketItemViewModel { CourseId = course.Id   , CourseName=course.Name , Price=course.Price  };
 
             await _basketService.AddBasketItem(basketItem);
 
