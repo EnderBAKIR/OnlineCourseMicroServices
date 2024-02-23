@@ -9,7 +9,7 @@ namespace FreeCourse.Services.Order.Application.Dtos
 {
     public class OrderDto
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         public DateTime CreatedDate { get; set; }
         public AddressDto Address { get; set; }

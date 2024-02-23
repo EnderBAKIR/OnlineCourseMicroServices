@@ -1,4 +1,5 @@
 ﻿using FreeCourse.Shared.Dtos;
+using FreeCourse.Shared.Services;
 using FreeCourse.Web.Models.Baskets;
 using FreeCourse.Web.Services.Interfaces;
 
@@ -9,11 +10,13 @@ namespace FreeCourse.Web.Services
     {
         private readonly HttpClient _httpClient;
         private readonly IDiscountService _discountService;
+        private readonly ISharedIdentityService _sharedIdentityService;
 
-        public BasketService(HttpClient httpClient, IDiscountService discountService)
+        public BasketService(HttpClient httpClient, IDiscountService discountService, ISharedIdentityService sharedIdentityService)
         {
             _httpClient = httpClient;
             _discountService = discountService;
+            _sharedIdentityService = sharedIdentityService;
         }
 
         public async Task AddBasketItem(BasketItemViewModel basketItemViewModel)
@@ -30,7 +33,12 @@ namespace FreeCourse.Web.Services
             }
             else
             {
-                basket = new BasketViewModel();
+                basket = new BasketViewModel()
+                {
+                    UserId = _sharedIdentityService.GetUserId
+                };
+               
+                
                 
                     
                 
