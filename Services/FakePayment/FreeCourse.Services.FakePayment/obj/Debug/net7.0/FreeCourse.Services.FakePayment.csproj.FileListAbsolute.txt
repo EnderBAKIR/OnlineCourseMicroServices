@@ -41,3 +41,13 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net7.0\FreeCourse.Services.FakePayment.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net7.0\FreeCourse.Services.FakePayment.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net7.0\ref\FreeCourse.Services.FakePayment.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net7.0\RabbitMQ.Client.dll
