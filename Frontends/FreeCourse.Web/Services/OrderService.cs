@@ -69,12 +69,14 @@ namespace FreeCourse.Web.Services
 
         }
 
+
         public async Task<List<OrderViewModel>> GetOrders()
         {
             var response = await _httpClient.GetFromJsonAsync<Response<List<OrderViewModel>>>("orders");
 
             return response.Data;
         }
+
 
         public async Task<OrderSuspendViewModel> SuspendOrder(CheckOutInfoInput checkOutInfoInput)
         {
@@ -112,7 +114,7 @@ namespace FreeCourse.Web.Services
             {
                 return new OrderSuspendViewModel() { Error = "Ödeme alınamadı", IsSuccessful = false };
             }
-
+            await _basketService.Delete();
             return new OrderSuspendViewModel() {IsSuccessful = true};
 
         }
