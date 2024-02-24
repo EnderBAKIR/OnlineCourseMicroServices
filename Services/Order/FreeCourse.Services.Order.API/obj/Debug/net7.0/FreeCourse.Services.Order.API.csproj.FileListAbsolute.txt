@@ -89,3 +89,13 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net7.0\FreeCourse.Services.Order.API.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net7.0\FreeCourse.Services.Order.API.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net7.0\ref\FreeCourse.Services.Order.API.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net7.0\RabbitMQ.Client.dll
