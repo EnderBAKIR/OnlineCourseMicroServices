@@ -13,7 +13,8 @@ namespace FreeCourse.Web.Models.FakePayments
         public string CVV { get; set; }
 
         public decimal TotalPrice {  get; set; }
+        public OrderCreateInput Order { get; set; }
 
-       
+
     }
 }

@@ -9,7 +9,7 @@ namespace FreeCourse.Web.Services.Interfaces
         Task<OrderCreatedViewModel> CreateOrder(CheckOutInfoInput checkOutInfoInput);
 
         //Asenktron işetişim - Sipariş Bilgileri RabbitMq Ya Gönderilecek.
-        Task SuspendOrder(CheckOutInfoInput checkOutInfoInput);
+        Task<OrderSuspendViewModel> SuspendOrder(CheckOutInfoInput checkOutInfoInput);
 
         Task<List<OrderViewModel>> GetOrders();
     }
