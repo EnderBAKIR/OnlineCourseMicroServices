@@ -56,5 +56,14 @@ namespace FreeCourse.Web.Controllers
             ViewBag.orderId = orderId;
             return View();
         }
+
+
+
+        public async Task<IActionResult> CheckoutHistory()
+        {
+
+            var orders = await _orderService.GetOrders();
+            return View(orders);
+        }
     }
 }
