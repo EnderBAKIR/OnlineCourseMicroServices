@@ -39,6 +39,8 @@ namespace FreeCourse.Services.Basket.Services
 
         public async Task<Response<bool>> SaveOrUpdate(BasketDto basketDto)
         {
+            
+
             var status = await _redisService.GetDb().StringSetAsync(basketDto.UserId , JsonSerializer.Serialize(basketDto));
 
             return status ? Response<bool>.Success(204) : Response<bool>.Fail("Sepetiniz kayıt edilemedi veya güncellenemedi daha sonra tekrar deneyiniz", 500);

@@ -16,22 +16,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\22ceb4a5-f8cd-4ffe-b29a-26b5cba8c849.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\30bc568a-1944-4551-a337-a75dce771847.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>FreeCourse.Services.PhotoStock</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/FreeCourse.Services.PhotoStock</BasePath>
-      <RelativePath>photos/30bc568a-1944-4551-a337-a75dce771847.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\30bc568a-1944-4551-a337-a75dce771847.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\68f16ea0-25f3-42b2-ad5f-d1263877e192.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>FreeCourse.Services.PhotoStock</SourceId>
@@ -63,6 +47,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\91057fd8-d48c-43c2-8192-5a10280de819.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\9611e13c-0b97-4b39-ab61-7f0ebc8e3f5f.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>FreeCourse.Services.PhotoStock</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FreeCourse.Services.PhotoStock</BasePath>
+      <RelativePath>photos/9611e13c-0b97-4b39-ab61-7f0ebc8e3f5f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\9611e13c-0b97-4b39-ab61-7f0ebc8e3f5f.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\photos\f0bf31fe-838c-464e-9d5a-fee0ff29540e.jpg))">
       <SourceType>Package</SourceType>
