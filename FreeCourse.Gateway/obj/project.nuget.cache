@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x90icDEWeGqZVA+WLSeRUGmwAOLhB53XMtJkN1MMjuY+PIbg0H7e2Z5Tt+iJ7soTgMCV0x8R/XBO/zp2PEGX9g==",
+  "dgSpecHash": "cFwGz6BCSHSCpotKmsd6SJqeno1BLkw+6w/15H01686hgy4uUqtGL/cCOT3B4eHJKb0duIaOwHRFXxf/H1Yt6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\FreeCourse.Gateway\\FreeCourse.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ender\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.15\\microsoft.aspnetcore.authentication.jwtbearer.7.0.15.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.14\\microsoft.aspnetcore.jsonpatch.7.0.14.nupkg.sha512",

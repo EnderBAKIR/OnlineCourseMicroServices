@@ -80,7 +80,7 @@ namespace FreeCouse.IdentityServer
                  ClientSecrets={new Secret ("secret".Sha256())},
                  AllowedGrantTypes=new []{"urn:ietf:params:oauth:grant-type:token-exchange"},
                  AllowedScopes={ "discount_fullpermission", "payment_fullpermission", IdentityServerConstants.StandardScopes.OpenId }
-             },
+             }
 
 
             };

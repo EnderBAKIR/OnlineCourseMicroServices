@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BQ/3zfjSXw5s2eEgUOSuoCcQUauC1+dC+cgMAUyg31c=",
+  "Hash": "yVYN9hOh/ehreWDAMZk/OJBLufP70M2Xa8kQ3Jbcrzo=",
   "Source": "FreeCourse.Services.PhotoStock",
   "BasePath": "_content/FreeCourse.Services.PhotoStock",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\006abb95-6d0c-4319-9d1c-cb0b3bb0f82f.jpg",
+      "SourceId": "FreeCourse.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "RelativePath": "photos/006abb95-6d0c-4319-9d1c-cb0b3bb0f82f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\006abb95-6d0c-4319-9d1c-cb0b3bb0f82f.jpg"
+    },
     {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\1d294ee8-4862-4aff-b495-82bdb1db1dca.jpg",
       "SourceId": "FreeCourse.Services.PhotoStock",

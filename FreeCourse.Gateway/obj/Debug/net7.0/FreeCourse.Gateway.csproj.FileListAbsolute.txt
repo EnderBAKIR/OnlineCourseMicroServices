@@ -45,3 +45,4 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCour
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\FreeCourse.Gateway.genruntimeconfig.cache
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\obj\Debug\net7.0\ref\FreeCourse.Gateway.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\OnlineCourseMicroServices\FreeCourse.Gateway\bin\Debug\net7.0\IdentityModel.dll

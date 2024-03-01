@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\006abb95-6d0c-4319-9d1c-cb0b3bb0f82f.jpg",
+      "PackagePath": "staticwebassets\\photos\\006abb95-6d0c-4319-9d1c-cb0b3bb0f82f.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\OnlineCourseMicroServices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\1d294ee8-4862-4aff-b495-82bdb1db1dca.jpg",
       "PackagePath": "staticwebassets\\photos\\1d294ee8-4862-4aff-b495-82bdb1db1dca.jpg"
     },
