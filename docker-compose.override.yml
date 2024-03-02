@@ -30,11 +30,10 @@ services:
   identitydb:
     container_name: identitydb
     restart: always
-    user: root
     ports:
       - "1433:1433"
     volumes:
-      - identitydb_volume:/var/opt/mssql/data
+      - identitydb_volume:/var/opt/mssql
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=Password12*
@@ -42,11 +41,10 @@ services:
   orderdb:
     container_name: orderdb
     restart: always
-    user: root
     ports:
       - "1444:1433"
     volumes:
-      - orderdb_volume:/var/opt/mssql/data
+      - orderdb_volume:/var/opt/mssql
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=Password12*
@@ -57,14 +55,24 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
-  catalog.api: 
+  catalog.api:
     container_name: catalog.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - RabbitMQUrl:rabbitmq
-      - IdentityServerUrl:http://identityserver.api:5001
-      - DatabaseSettings:ConnectionString:mongodb://catalogdb:27017
+      - RabbitMQUrl=rabbitmq
+      - IdentityServerURL=http://identityserver.api
+      - DatabaseSettings:ConnectionString=mongodb://catalogdb:27017
     ports:
       - "5011:80"
     depends_on:
       - catalogdb
+  identityserver.api:
+    container_name: identityserver.api
+    restart: on-failure
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=Server=identitydb,1433;Database=IdentityDb; User=sa; Password=Password12*"
+    ports:
+      - "5001:80"
+    depends_on:
+      - identitydb
