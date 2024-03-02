@@ -12,6 +12,11 @@ services:
     image: mcr.microsoft.com/mssql/server:2019-latest
   rabbitmq: 
     image: rabbitmq:management-alpine
+  catalog.api: 
+    image: catalog_api_image
+    build:
+      context: .
+      dockerfile: services/Catalog/FreeCourse.Services.Catalog/DockerFile
 volumes:
   catalogdb_volume:
   discount_volume:
