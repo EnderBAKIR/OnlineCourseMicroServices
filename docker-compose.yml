@@ -22,7 +22,11 @@ services:
     build:
       context: .
       dockerfile: IdentityServer/FreeCouse.IdentityServer/DockerFile
-
+  basket.api:
+    image: basket_api_image
+    build:
+      context: .
+      dockerfile: Services/basket/FreeCourse.Services.Basket/DockerFile
 volumes:
   catalogdb_volume:
   discount_volume:
