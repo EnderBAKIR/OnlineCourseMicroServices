@@ -100,6 +100,15 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    var orderDbContext = serviceProvider.GetRequiredService<OrderDbContext>();
+    orderDbContext.Database.Migrate();
+
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
